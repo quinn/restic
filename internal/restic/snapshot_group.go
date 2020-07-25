@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/restic/restic/internal/errors"
+	"github.com/quinn/restic/internal/errors"
 )
 
 // SnapshotGroupKey is the structure for identifying groups in a grouped

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/internal/test"
+	"github.com/quinn/restic/internal/test"
 )
 
 func TestByteReader(t *testing.T) {

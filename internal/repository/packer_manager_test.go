@@ -8,11 +8,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/restic/restic/internal/backend/mem"
-	"github.com/restic/restic/internal/crypto"
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/mock"
-	"github.com/restic/restic/internal/restic"
+	"github.com/quinn/restic/internal/backend/mem"
+	"github.com/quinn/restic/internal/crypto"
+	"github.com/quinn/restic/internal/fs"
+	"github.com/quinn/restic/internal/mock"
+	"github.com/quinn/restic/internal/restic"
 )
 
 func randomID(rd io.Reader) restic.ID {

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/walker"
+	"github.com/quinn/restic/internal/errors"
+	"github.com/quinn/restic/internal/restic"
+	"github.com/quinn/restic/walker"
 
 	"github.com/minio/sha256-simd"
 	"github.com/spf13/cobra"

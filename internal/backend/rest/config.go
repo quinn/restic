@@ -4,8 +4,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/options"
+	"github.com/quinn/restic/internal/errors"
+	"github.com/quinn/restic/internal/options"
 )
 
 // Config contains all configuration necessary to connect to a REST server.

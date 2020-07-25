@@ -76,7 +76,7 @@ new feature. This way, duplicate work is prevented and we can discuss
 your ideas and design first.
 
 More information and a description of the development environment can be
-found in `CONTRIBUTING.md <https://github.com/restic/restic/blob/master/CONTRIBUTING.md>`__.
+found in `CONTRIBUTING.md <https://github.com/quinn/restic/blob/master/CONTRIBUTING.md>`__.
 A document describing the design of restic and the data structures stored on the
 back end is contained in `Design <https://restic.readthedocs.io/en/latest/design.html>`__.
 
@@ -86,7 +86,7 @@ what do to, have a look at this great article by Dave Cheney:
 project <https://dave.cheney.net/2016/03/12/suggestions-for-contributing-to-an-open-source-project>`__
 A few issues have been tagged with the label ``help wanted``, you can
 start looking at those:
-https://github.com/restic/restic/labels/help%20wanted
+https://github.com/quinn/restic/labels/help%20wanted
 
 ********
 Security

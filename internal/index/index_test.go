@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/internal/checker"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/test"
+	"github.com/quinn/restic/internal/checker"
+	"github.com/quinn/restic/internal/errors"
+	"github.com/quinn/restic/internal/repository"
+	"github.com/quinn/restic/internal/restic"
+	"github.com/quinn/restic/internal/test"
 )
 
 var (

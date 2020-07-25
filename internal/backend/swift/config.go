@@ -4,8 +4,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/options"
+	"github.com/quinn/restic/internal/errors"
+	"github.com/quinn/restic/internal/options"
 )
 
 // Config contains basic configuration needed to specify swift location for a swift server

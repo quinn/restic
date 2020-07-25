@@ -37,7 +37,7 @@ In the following example, we'll use the file ``restic-0.9.3.tar.gz`` and Go
 
     $ mkdir /restic
     $ cd /restic
-    $ TZ=Europe/Berlin curl -L https://github.com/restic/restic/releases/download/v0.9.3/restic-0.9.3.tar.gz | tar xz --strip-components=1
+    $ TZ=Europe/Berlin curl -L https://github.com/quinn/restic/releases/download/v0.9.3/restic-0.9.3.tar.gz | tar xz --strip-components=1
 
 3. Build the binaries for Windows and Linux:
 

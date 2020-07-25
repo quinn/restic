@@ -4,16 +4,16 @@ package location
 import (
 	"strings"
 
-	"github.com/restic/restic/internal/backend/azure"
-	"github.com/restic/restic/internal/backend/b2"
-	"github.com/restic/restic/internal/backend/gs"
-	"github.com/restic/restic/internal/backend/local"
-	"github.com/restic/restic/internal/backend/rclone"
-	"github.com/restic/restic/internal/backend/rest"
-	"github.com/restic/restic/internal/backend/s3"
-	"github.com/restic/restic/internal/backend/sftp"
-	"github.com/restic/restic/internal/backend/swift"
-	"github.com/restic/restic/internal/errors"
+	"github.com/quinn/restic/internal/backend/azure"
+	"github.com/quinn/restic/internal/backend/b2"
+	"github.com/quinn/restic/internal/backend/gs"
+	"github.com/quinn/restic/internal/backend/local"
+	"github.com/quinn/restic/internal/backend/rclone"
+	"github.com/quinn/restic/internal/backend/rest"
+	"github.com/quinn/restic/internal/backend/s3"
+	"github.com/quinn/restic/internal/backend/sftp"
+	"github.com/quinn/restic/internal/backend/swift"
+	"github.com/quinn/restic/internal/errors"
 )
 
 // Location specifies the location of a repository, including the method of

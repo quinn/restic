@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/restic/restic/internal/test"
+	"github.com/quinn/restic/internal/test"
 )
 
 func TestRejectByPattern(t *testing.T) {

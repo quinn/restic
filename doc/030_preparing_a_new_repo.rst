@@ -145,15 +145,15 @@ SFTP connection, you can specify the command to be run with the option
 
 .. note:: Please be aware that sftp servers close connections when no data is
           received by the client. This can happen when restic is processing huge
-          amounts of unchanged data. To avoid this issue add the following lines 
+          amounts of unchanged data. To avoid this issue add the following lines
           to the client’s .ssh/config file:
 
 ::
 
     ServerAliveInterval 60
     ServerAliveCountMax 240
-          
-          
+
+
 REST Server
 ***********
 
@@ -455,7 +455,7 @@ key file and the project ID as follows:
 
 Restic uses  Google's client library to generate `default authentication material`_,
 which means if you're running in Google Container Engine or are otherwise
-located on an instance with default service accounts then these should work out of 
+located on an instance with default service accounts then these should work out of
 the box.
 
 Once authenticated, you can use the ``gs:`` backend type to create a new
@@ -581,7 +581,7 @@ repository specification):
 .. _rclone: https://rclone.org/
 .. _configure: https://rclone.org/docs/
 .. _configured with environment variables: https://rclone.org/docs/#environment-variables
-.. _issue #1657: https://github.com/restic/restic/pull/1657#issuecomment-377707486
+.. _issue #1657: https://github.com/quinn/restic/pull/1657#issuecomment-377707486
 
 Password prompt on Windows
 **************************

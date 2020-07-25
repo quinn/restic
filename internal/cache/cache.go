@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/restic"
+	"github.com/quinn/restic/internal/debug"
+	"github.com/quinn/restic/internal/fs"
+	"github.com/quinn/restic/internal/restic"
 )
 
 // Cache manages a local cache.

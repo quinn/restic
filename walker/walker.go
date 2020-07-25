@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/restic/restic/internal/restic"
+	"github.com/quinn/restic/internal/restic"
 )
 
 // TreeLoader loads a tree from a repository.

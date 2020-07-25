@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/walker"
+	"github.com/quinn/restic/internal/restic"
+	"github.com/quinn/restic/walker"
 
 	"github.com/gabriel-vasile/mimetype"
 	"github.com/spf13/cobra"

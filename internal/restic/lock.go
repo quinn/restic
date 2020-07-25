@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/internal/errors"
+	"github.com/quinn/restic/internal/errors"
 
-	"github.com/restic/restic/internal/debug"
+	"github.com/quinn/restic/internal/debug"
 )
 
 // Lock represents a process locking the repository for an operation.

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/restic/restic/internal/errors"
+	"github.com/quinn/restic/internal/errors"
 
 	"github.com/minio/sha256-simd"
 )

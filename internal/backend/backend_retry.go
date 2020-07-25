@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff"
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/restic"
+	"github.com/quinn/restic/internal/debug"
+	"github.com/quinn/restic/internal/restic"
 )
 
 // RetryBackend retries operations on the backend in case of an error with a

@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/restic/restic/internal/restic"
+	"github.com/quinn/restic/internal/restic"
 )
 
 // LimitBackend wraps a Backend and applies rate limiting to Load() and Save()

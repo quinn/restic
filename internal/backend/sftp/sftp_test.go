@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/internal/backend/sftp"
-	"github.com/restic/restic/internal/backend/test"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/quinn/restic/internal/backend/sftp"
+	"github.com/quinn/restic/internal/backend/test"
+	"github.com/quinn/restic/internal/errors"
+	"github.com/quinn/restic/internal/restic"
+	rtest "github.com/quinn/restic/internal/test"
 )
 
 func findSFTPServerBinary() string {

@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/restic"
+	"github.com/quinn/restic/internal/debug"
+	"github.com/quinn/restic/internal/errors"
+	"github.com/quinn/restic/internal/fs"
+	"github.com/quinn/restic/internal/restic"
 )
 
 // Layout computes paths for file name storage.

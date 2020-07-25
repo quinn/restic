@@ -9,11 +9,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/filter"
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/repository"
+	"github.com/quinn/restic/internal/debug"
+	"github.com/quinn/restic/internal/errors"
+	"github.com/quinn/restic/internal/filter"
+	"github.com/quinn/restic/internal/fs"
+	"github.com/quinn/restic/internal/repository"
 )
 
 type rejectionCache struct {

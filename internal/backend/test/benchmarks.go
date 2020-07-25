@@ -6,8 +6,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/test"
+	"github.com/quinn/restic/internal/restic"
+	"github.com/quinn/restic/internal/test"
 )
 
 func saveRandomFile(t testing.TB, be restic.Backend, length int) ([]byte, restic.Handle) {

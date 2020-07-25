@@ -7,10 +7,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/ui/table"
+	"github.com/quinn/restic/internal/errors"
+	"github.com/quinn/restic/internal/repository"
+	"github.com/quinn/restic/internal/restic"
+	"github.com/quinn/restic/internal/ui/table"
 
 	"github.com/spf13/cobra"
 )

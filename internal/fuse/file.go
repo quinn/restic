@@ -5,10 +5,10 @@ package fuse
 import (
 	"sort"
 
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/restic"
+	"github.com/quinn/restic/internal/errors"
+	"github.com/quinn/restic/internal/restic"
 
-	"github.com/restic/restic/internal/debug"
+	"github.com/quinn/restic/internal/debug"
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"

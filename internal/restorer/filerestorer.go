@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/restic/restic/internal/crypto"
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/restic"
+	"github.com/quinn/restic/internal/crypto"
+	"github.com/quinn/restic/internal/debug"
+	"github.com/quinn/restic/internal/errors"
+	"github.com/quinn/restic/internal/restic"
 )
 
 // TODO if a blob is corrupt, there may be good blob copies in other packs

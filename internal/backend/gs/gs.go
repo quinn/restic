@@ -11,9 +11,9 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/restic/restic/internal/backend"
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/restic"
+	"github.com/quinn/restic/internal/backend"
+	"github.com/quinn/restic/internal/debug"
+	"github.com/quinn/restic/internal/restic"
 
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"

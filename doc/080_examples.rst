@@ -238,7 +238,7 @@ restic is now ready to be used with AWS S3. Try to create a backup:
    $ ./restic backup test.bin
    scan [/home/philip/restic-demo/test.bin]
    scanned 0 directories, 1 files in 0:00
-   [0:04] 100.00%  2.500 MiB/s  10.000 MiB / 10.000 MiB  1 / 1 items ... ETA 0:00 
+   [0:04] 100.00%  2.500 MiB/s  10.000 MiB / 10.000 MiB  1 / 1 items ... ETA 0:00
    duration: 0:04, 2.47MiB/s
    snapshot 10fdbace saved
 
@@ -311,13 +311,13 @@ the backups:
 
    root@a3e580b6369d:/# useradd -m restic
 
-Then we download and install the restic binary into the user's home 
+Then we download and install the restic binary into the user's home
 directory (please adjust the URL to refer to the latest restic version).
 
 .. code-block:: console
 
    root@a3e580b6369d:/# mkdir ~restic/bin
-   root@a3e580b6369d:/# curl -L https://github.com/restic/restic/releases/download/v0.9.6/restic_0.9.6_linux_amd64.bz2 | bunzip2 > ~restic/bin/restic
+   root@a3e580b6369d:/# curl -L https://github.com/quinn/restic/releases/download/v0.9.6/restic_0.9.6_linux_amd64.bz2 | bunzip2 > ~restic/bin/restic
 
 Before we assign any special capability to the restic binary we
 restrict its permissions so that only root and the newly created

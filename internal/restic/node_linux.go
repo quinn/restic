@@ -6,9 +6,9 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/restic/restic/internal/errors"
+	"github.com/quinn/restic/internal/errors"
 
-	"github.com/restic/restic/internal/fs"
+	"github.com/quinn/restic/internal/fs"
 )
 
 func (node Node) restoreSymlinkTimestamps(path string, utimes [2]syscall.Timespec) error {

@@ -8,7 +8,7 @@ package restic
 import (
 	"syscall"
 
-	"github.com/restic/restic/internal/errors"
+	"github.com/quinn/restic/internal/errors"
 
 	"github.com/pkg/xattr"
 )

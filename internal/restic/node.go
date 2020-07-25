@@ -11,13 +11,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/restic/restic/internal/errors"
+	"github.com/quinn/restic/internal/errors"
 
 	"bytes"
 	"runtime"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/fs"
+	"github.com/quinn/restic/internal/debug"
+	"github.com/quinn/restic/internal/fs"
 )
 
 // ExtendedAttribute is a tuple storing the xattr name and value.

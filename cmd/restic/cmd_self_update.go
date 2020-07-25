@@ -5,8 +5,8 @@ package main
 import (
 	"os"
 
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/selfupdate"
+	"github.com/quinn/restic/internal/errors"
+	"github.com/quinn/restic/internal/selfupdate"
 	"github.com/spf13/cobra"
 )
 

@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/restic/restic/internal/backend"
-	"github.com/restic/restic/internal/backend/mem"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/test"
+	"github.com/quinn/restic/internal/backend"
+	"github.com/quinn/restic/internal/backend/mem"
+	"github.com/quinn/restic/internal/restic"
+	"github.com/quinn/restic/internal/test"
 )
 
 func loadAndCompare(t testing.TB, be restic.Backend, h restic.Handle, data []byte) {

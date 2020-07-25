@@ -7,9 +7,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/restic/restic/internal/crypto"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/quinn/restic/internal/crypto"
+	"github.com/quinn/restic/internal/restic"
+	rtest "github.com/quinn/restic/internal/test"
 )
 
 type TestBlob struct {

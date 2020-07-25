@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/internal/archiver"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/quinn/restic/internal/archiver"
+	"github.com/quinn/restic/internal/errors"
+	"github.com/quinn/restic/internal/fs"
+	"github.com/quinn/restic/internal/repository"
+	"github.com/quinn/restic/internal/restic"
+	rtest "github.com/quinn/restic/internal/test"
 )
 
 var testSizes = []int{5, 23, 2<<18 + 23, 1 << 20}
