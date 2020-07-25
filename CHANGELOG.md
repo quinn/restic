@@ -1,7 +1,7 @@
-Changelog for restic 0.9.6 (2019-11-22)
+Changelog for restic 0.9.7 (2019-11-22)
 =======================================
 
-The following sections list the changes in restic 0.9.6 relevant to
+The following sections list the changes in restic 0.9.7 relevant to
 restic users. The changes are ordered by importance.
 
 Summary
