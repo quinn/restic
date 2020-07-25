@@ -12,7 +12,7 @@ import (
 	"github.com/restic/restic/internal/errors"
 	"github.com/restic/restic/internal/fs"
 	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/walker"
+	"github.com/restic/restic/walker"
 )
 
 var cmdLs = &cobra.Command{

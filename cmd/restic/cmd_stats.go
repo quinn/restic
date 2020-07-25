@@ -8,7 +8,7 @@ import (
 
 	"github.com/restic/restic/internal/errors"
 	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/walker"
+	"github.com/restic/restic/walker"
 
 	"github.com/minio/sha256-simd"
 	"github.com/spf13/cobra"

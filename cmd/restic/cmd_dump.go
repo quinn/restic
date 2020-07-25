@@ -13,7 +13,7 @@ import (
 	"github.com/restic/restic/internal/debug"
 	"github.com/restic/restic/internal/errors"
 	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/walker"
+	"github.com/restic/restic/walker"
 
 	"github.com/spf13/cobra"
 )

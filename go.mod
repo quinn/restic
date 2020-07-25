@@ -8,12 +8,15 @@ require (
 	github.com/cenkalti/backoff v2.1.1+incompatible
 	github.com/cespare/xxhash v1.1.0
 	github.com/cpuguy83/go-md2man v1.0.10 // indirect
+	github.com/davecgh/go-spew v1.1.1
 	github.com/dchest/siphash v1.2.1
 	github.com/dnaeon/go-vcr v1.0.1 // indirect
 	github.com/elithrar/simple-scrypt v1.3.0
+	github.com/gabriel-vasile/mimetype v1.1.1
+	github.com/go-kivik/couchdb/v4 v4.0.0-20200710153906-95704eed8b30
+	github.com/go-kivik/kivik/v4 v4.0.0-20200710132642-db78c23bfa09
 	github.com/golang/protobuf v1.3.1 // indirect
 	github.com/google/go-cmp v0.2.0
-	github.com/gopherjs/gopherjs v0.0.0-20190411002643-bd77b112433e // indirect
 	github.com/hashicorp/golang-lru v0.5.1
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/juju/ratelimit v1.0.1
@@ -24,7 +27,7 @@ require (
 	github.com/minio/minio-go/v6 v6.0.53
 	github.com/minio/sha256-simd v0.1.1
 	github.com/ncw/swift v1.0.47
-	github.com/pkg/errors v0.8.1
+	github.com/pkg/errors v0.9.1
 	github.com/pkg/profile v1.3.0
 	github.com/pkg/sftp v1.10.0
 	github.com/pkg/xattr v0.4.1
